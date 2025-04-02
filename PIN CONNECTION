@@ -1,0 +1,16 @@
+ESP32  →  A9G / OLED Connections
+
+A9G Module:
+ESP32 Pin  →  A9G Pin
+------------------------
+16 (RX1)   →  TX
+17 (TX1)   →  RX
+GND        →  GND  (Must be connected!)
+
+OLED Display:
+ESP32 Pin  →  OLED Pin
+------------------------
+22 (SCL)   →  SCL
+21 (SDA)   →  SDA
+GND        →  GND
+3.3V       →  VCC
